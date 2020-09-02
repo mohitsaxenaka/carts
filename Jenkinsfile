@@ -19,7 +19,7 @@ pipeline {
       steps {
         echo 'this is the job for packaging'
         sh 'mvn package -DskipTests'
-        archiveArtifacts '**/target/*.war'
+        archiveArtifacts '**/target/*.jar'
       }
     }
 
