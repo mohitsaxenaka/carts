@@ -8,8 +8,7 @@ pipeline {
       }
     }
 
-    
-    stage('two') {
+       stage('two') {
       steps {
         echo 'this is the test job'
         sh 'mvn clean test'
