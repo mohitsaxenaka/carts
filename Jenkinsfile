@@ -12,6 +12,7 @@ pipeline {
       steps {
         echo 'this is the test job'
         sh 'mvn clean test'
+      
       }
     }
 
