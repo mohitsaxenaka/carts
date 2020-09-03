@@ -17,7 +17,6 @@ pipeline {
       }
     }
     
-
     stage('three') {
       steps {
         echo 'this is the job for packaging'
