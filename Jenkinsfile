@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('one') {
+    stage('build') {
       steps {
         echo 'this is the build job'
         sh 'mvn compile'
